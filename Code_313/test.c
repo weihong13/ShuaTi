@@ -88,3 +88,39 @@
 //	return 0;
 //}
 
+//// OJ/1302 读入一个整数，若这个数大于1并且小于100，则输出yes。(if)
+//int main() {
+//	int n = 0;
+//	scanf("%d", &n);
+//	if (n > 1 && n < 100) {
+//		printf("yes");
+//	}
+//}
+
+//// OJ/1303  输入温度t的值，判断是否适合晨练。(25≤t≤30，则适合晨练ok!，否则不适合no!)
+//int main() {
+//	int t = 0;
+//	scanf("%d", &t);
+//	if (t >= 25 && t <= 30) {
+//		printf("ok!");
+//	}
+//	else {
+//		printf("no!");
+//	}
+//	return 0;
+//}
+
+// OJ/1304 乘坐飞机时，当乘客行李小于等于20公斤时，按每公斤1.68元收费，大于20公斤时，按每公斤1.98元收费，编程计算收费(保留2位小数)。
+int main() {
+	float weight = 0.0f;
+	float price = 0.0f;
+	scanf("%f", &weight);
+	if (weight > 20) {
+		price = 20*1.68+(weight - 20) * 1.98;
+	}
+	else {
+		price = weight * 1.68;
+	}
+	printf("%.2f", price);
+	return 0;
+}
