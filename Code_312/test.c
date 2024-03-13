@@ -29,6 +29,40 @@
 //	return 0;
 //
 //}
+<<<<<<< HEAD
+//// switch  // 判断元音辅音
+//int main() {
+//	char ch;
+//	int i = 0;
+//	scanf("%c", &ch);
+//	switch (ch)
+//	{
+//	case 'a':  // 遇不到break时，持续往下走，可以实现多个case匹配同一输出的效果
+//	case 'e':
+//	case 'i':
+//	case 'o':
+//	case 'u':
+//	case 'A':
+//	case 'E':
+//	case 'I':
+//	case 'O':
+//	case 'U':
+//		i = 1;
+//		printf("%d", i);
+//		break;
+//	default:
+//		// 通过ASCII值，判断输入是否为数字
+//		if (ch < 65) {
+//			printf("none");
+//		}
+//		else {
+//			printf("%d", i);
+//		}
+//	}
+//	return 0;
+//}
+=======
+>>>>>>> 723d786f29ff13e2e9159f431d624946080e69f2
 
 //// OJ/016
 //int main() {
