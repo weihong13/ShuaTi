@@ -1,2 +1,4 @@
 ﻿  test.c
+E:\VSProjects\ShuaTi\Code_313\test.c(119,39): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\VSProjects\ShuaTi\Code_313\test.c(122,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
   Code_313.vcxproj -> E:\VSProjects\ShuaTi\Code_313\Debug\Code_313.exe
