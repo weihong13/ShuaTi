@@ -1,0 +1,3 @@
+﻿  test.c
+E:\VSProjects\ShuaTi\Code_315\test.c(327,9): warning C4129: “%”: 不可识别的字符转义序列
+  Code_315.vcxproj -> E:\VSProjects\ShuaTi\Code_315\Debug\Code_315.exe
